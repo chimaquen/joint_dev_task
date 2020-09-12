@@ -86,7 +86,7 @@ def q10
 
   # 以下に回答を記載
   for i in 0..6 do
-    if foods[i] == 'うに'
+    if foods[i].include?("うに")
         puts "好物です"
     else
         puts "まぁまぁ好きです"
