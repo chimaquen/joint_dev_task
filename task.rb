@@ -207,9 +207,6 @@ class Item
     @name = params[:name]
   end
 
-  def name
-    puts @name
-  end
 end
 
 def q19
